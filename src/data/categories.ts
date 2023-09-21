@@ -4,5 +4,5 @@ export const CATEGORIES = [
 	'Category 2',
 	'Category 3',
 	'Category 4',
-	'Category 5'
+	'Tragos con ron'
 ] as const
