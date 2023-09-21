@@ -12,7 +12,7 @@ type Props = {
 	readTime: string
 }
 
-const { data, readTime, headings } = Astro.props
+const { data, readTime, headings} = Astro.props
 const { title, description, pubDate, heroImage, tags } = data
 
 const articleDate = pubDate.toISOString()
