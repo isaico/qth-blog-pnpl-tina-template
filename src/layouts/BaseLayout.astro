@@ -9,11 +9,11 @@ import EditBlog from '@/components/editBlog'
 const { title, description, image, articleDate } = Astro.props
 ---
 
-<html lang='en' class='scroll-smooth'>
+<html lang='es' class='scroll-smooth'>
 	<head>
 		<BaseHead title={title} description={description} ogImage={image} articleDate={articleDate} />
 		<ProviderTheme />
-		<ProviderAnimations />
+		<ProviderAnimations /> 
 	</head>
 
 	<body class='bg-white text-stone-950 dark:bg-[#0a0910] dark:text-white w-full h-full'>

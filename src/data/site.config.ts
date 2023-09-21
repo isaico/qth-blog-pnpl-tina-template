@@ -8,10 +8,10 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	author: 'DanielCG',
-	title: 'Astro Theme OpenBlog',
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-	lang: 'en-GB',
-	ogLocale: 'en_GB',
-	shareMessage: 'Share this post' // Message to share a post on social media
+	author: 'Isaias Garcia',
+	title: 'Que trago hacer? - Blog de Coctelería',
+	description: '',
+	lang: 'es-ES',
+	ogLocale: 'es_ES',
+	shareMessage: 'Comparte esta publicación' // Message to share a post on social media
 }
