@@ -68,3 +68,6 @@
 .shadow {
 	box-shadow: -5px 3px 8px 1px rgba(0, 0, 0, 0.12);
 }
+.text-grad{
+	@apply  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary 
+}
