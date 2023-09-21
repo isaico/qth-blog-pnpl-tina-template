@@ -23,6 +23,7 @@
 		"dev": "tinacms dev -c 'astro dev'",
 		"start": "astro dev",
 		"build": "npx tinacms build && astro build",
+		"prebuild": "node scripts/replaceAssetPaths.js",
 		"sync": "astro sync",
 		"preview": "astro preview",
 		"postbuild": "pagefind --site dist",
